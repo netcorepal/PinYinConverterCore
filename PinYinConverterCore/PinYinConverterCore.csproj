@@ -9,8 +9,17 @@
     <Description>Microsoft.International.Converters.PinYinConverter in Microsoft Visual Studio International Pack 1.0 SR1 .net core suport</Description>
     <RepositoryUrl>https://github.com/netcorepal/PinYinConverterCore.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageReleaseNotes>Microsoft.International.Converters.PinYinConverter in Microsoft Visual Studio International Pack 1.0 SR1 .net core suport</PackageReleaseNotes>
+    <PackageReleaseNotes>添加注释说明文件</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/netcorepal/PinYinConverterCore</PackageProjectUrl>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp2.0\PinYinConverterCore.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.0\PinYinConverterCore.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
