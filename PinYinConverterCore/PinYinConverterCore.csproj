@@ -7,9 +7,10 @@
     <Authors>netcorepal</Authors>
     <Company>netcorepal</Company>
     <Description>Microsoft.International.Converters.PinYinConverter in Microsoft Visual Studio International Pack 1.0 SR1 .net core suport</Description>
-    <RepositoryUrl>https://github.com/netcorepal/PinYinConverterCore</RepositoryUrl>
+    <RepositoryUrl>https://github.com/netcorepal/PinYinConverterCore.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReleaseNotes>Microsoft.International.Converters.PinYinConverter in Microsoft Visual Studio International Pack 1.0 SR1 .net core suport</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/netcorepal/PinYinConverterCore</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
