@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PinYinConverterCore", "PinYinConverterCore\PinYinConverterCore.csproj", "{B9C9278B-8690-48E3-A302-C2C83EF3B62E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9C9278B-8690-48E3-A302-C2C83EF3B62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C9278B-8690-48E3-A302-C2C83EF3B62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C9278B-8690-48E3-A302-C2C83EF3B62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C9278B-8690-48E3-A302-C2C83EF3B62E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F726D71-B4ED-4908-AA15-485DCBC5E217}
+	EndGlobalSection
+EndGlobal

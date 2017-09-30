@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>Microsoft.International.Converters.PinYinConverter</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>netcorepal</Authors>
+    <Company>netcorepal</Company>
+    <Description>Microsoft.International.Converters.PinYinConverter in Microsoft Visual Studio International Pack 1.0 SR1 .net core suport</Description>
+    <RepositoryUrl>https://github.com/netcorepal/PinYinConverterCore</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>Microsoft.International.Converters.PinYinConverter in Microsoft Visual Studio International Pack 1.0 SR1 .net core suport</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="AssemblyResource.Designer.cs">
+      <DependentUpon>AssemblyResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="AssemblyResource.resx">
+      <LastGenOutput>AssemblyResource.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="CharDictionary.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PinyinDictionary.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
