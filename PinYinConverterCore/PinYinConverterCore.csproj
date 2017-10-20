@@ -9,7 +9,7 @@
     <Description>Microsoft.International.Converters.PinYinConverter in Microsoft Visual Studio International Pack 1.0 SR1 .net core suport</Description>
     <RepositoryUrl>https://github.com/netcorepal/PinYinConverterCore.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageReleaseNotes>添加注释说明文件</PackageReleaseNotes>
+    <PackageReleaseNotes>Change TargetFrameworks to net45、netstandard2.0</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/netcorepal/PinYinConverterCore</PackageProjectUrl>
     <Version>1.0.2</Version>
   </PropertyGroup>
