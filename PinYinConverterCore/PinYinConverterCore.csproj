@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
     <RootNamespace>Microsoft.International.Converters.PinYinConverter</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>netcorepal</Authors>
@@ -11,15 +11,15 @@
     <RepositoryType>git</RepositoryType>
     <PackageReleaseNotes>添加注释说明文件</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/netcorepal/PinYinConverterCore</PackageProjectUrl>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netcoreapp2.0\PinYinConverterCore.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\net45\PinYinConverterCore.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netcoreapp2.0\PinYinConverterCore.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\net45\PinYinConverterCore.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -36,10 +36,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="CharDictionary.resx">
-      <Generator></Generator>
+      <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="PinyinDictionary.resx">
-      <Generator></Generator>
+      <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
   </ItemGroup>
 
